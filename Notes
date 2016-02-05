@@ -1,0 +1,15 @@
+find ecentricity by equation based periapsis and apoapsis,
+semilatus rectum l = a*1-eccentricity^2
+excentricity = mean of apoapsis and periapsis = (apoapsis - periapsis) / 2(length of the semi major axis)
+^gives you the eccentricity
+
+distance from sun to planet = semilatus rectum / 1 + eccentricity*cos(theta)
+^equation to graph a elipse (what an orbit is)
+
+What you need for this to work:
+apoapsis And periapsis
+- we can achieve this by manual input or by desiganting both the apoapsis and periapsis in a  button like (small, medium, large)\
+	- either works
+the second equation gives you the distance from the star to the planet, will give a common elipse based on the ratio, so only mark where the periapsis and apoapsis are if you can
+
+coordinates 0,0 are your star
